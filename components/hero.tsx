@@ -15,6 +15,7 @@ export function Hero() {
         <h1 className="mt-4 text-balance text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
           Turkan Aliyeva
         </h1>
+        <p className="mt-3 text-sm text-white/60 sm:text-base">Built with v0 and published with GitHub.</p>
         <ul className="mt-6 flex flex-wrap gap-2" aria-label="Roles">
           {roles.map((role) => (
             <li
